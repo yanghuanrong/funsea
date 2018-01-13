@@ -295,6 +295,8 @@ p {
     background-attachment: fixed;
 }
 
+.scroll_content{ padding-right: 10px}
+
 #about .service-item {
     text-align: center;
     margin: 0px -15px;
@@ -357,7 +359,7 @@ p {
     padding: 40px 0px;
     margin: 15px 0px;
     transition: all 0.5s;
-    min-height: 306px;
+    min-height: 332px;
 }
 
 .what-we-do li:nth-of-type(odd) .list-item {
@@ -719,6 +721,7 @@ footer .social-icons {
 
 footer .copyright {
     padding: 75px 0;
+    margin-right: -10px;
 }
 
 footer .copyright img {
@@ -726,9 +729,14 @@ footer .copyright img {
     margin-right: 5px;
 }
 
-footer .copyright span {
-    margin: 0 10px
+footer .copyright span:nth-of-type(1) {
+    margin-right:10px
 }
+
+footer .copyright span:nth-last-of-type(1) {
+    margin-left:10px
+}
+
 
 footer .copyright a {
     color: #FFF;
