@@ -878,6 +878,12 @@ footer .back-to-top i {
 }
 
 @media (max-width: 991px) {
+    .navbar-collapse{
+        max-height: inherit;
+    }
+    .language::after{
+        display: none;
+    }
     footer {
         text-align: center;
     }
