@@ -334,6 +334,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 5px;
+    font-family:  '宋体', sans-serif;
 }
 
 .banner-content h2 {
@@ -344,6 +345,8 @@ p {
     letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 40px;
+    font-family:  '宋体', sans-serif;
+
 }
 
 
