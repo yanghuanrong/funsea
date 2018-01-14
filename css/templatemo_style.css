@@ -143,6 +143,24 @@ p {
     margin-bottom: 0px;
 }
 
+.language{
+    position: relative;
+}
+.language a{
+    font-size: 12px !important;
+}
+.language::after{
+    position: absolute;
+    content: "";
+    right: 7px;
+    top:37px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #888;
+}
+
 .navbar-header {
     float: none;
 }
@@ -219,11 +237,69 @@ p {
     right: 15px;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.banner-pagination{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner-prev{
+    z-index:10;
+    position: absolute;
+    top:50%;
+    left:10%;
+    width: 50px;
+    cursor: pointer;
+}
+.banner-next{
+    z-index:10;
+    position: absolute;
+    top:50%;
+    width: 50px;
+    right: 10%;
+    cursor: pointer;
+}
+.bullet{
+    width: 8px;
+    height: 8px;
+    background-color: #46bae1;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer
+}
+.bullet-active{
+    width: 16px;
+    height: 8px;
+    background-color: #f1745e;
+    border-radius: 8px;
+    display: inline-block
+}
+
 .banner {
     background-image: url(../img/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 
 .banner-content {
@@ -808,6 +884,13 @@ footer .back-to-top i {
 }
 
 @media (max-width: 767px) {
+
+    .banner-prev{
+        left:0%;
+    }
+    .banner-next{
+        right: 0%;
+    }
 
     .navbar-brand {
         float: none;
