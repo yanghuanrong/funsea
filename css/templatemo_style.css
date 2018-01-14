@@ -880,9 +880,12 @@ footer .back-to-top i {
     footer {
         text-align: center;
     }
-
+    footer .copyright p{
+        margin-right: 0;
+    }
     footer p, footer .copyright {
         padding: 30px 0px 0px 0px;
+        margin-right: 0;
     }
 
     footer .social-icons {
@@ -898,6 +901,7 @@ footer .back-to-top i {
 }
 
 @media (max-width: 767px) {
+
 
     .banner-prev{
         left:0%;
