@@ -20,7 +20,7 @@ ul {
 
 p {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
     letter-spacing: 0.25px;
     font-weight: 300;
 }
@@ -211,13 +211,13 @@ p {
 
 .menu-first li a {
     color: #888888;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
     text-shadow: none;
     display: inline-block;
     line-height: 80px;
-    padding: 0px 20px;
+    padding: 0px 15px;
     letter-spacing: 0.5px;
     transition: all 0.5s;
     outline: none;
@@ -499,7 +499,7 @@ p {
     padding-left: 6em;
     font-size: 14px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom:30px;
 }
 
 .what-we-do .tab-content-services .left-text p::before {
