@@ -909,7 +909,10 @@ footer .back-to-top i {
 }
 
 @media (max-width: 767px) {
-
+    .banner-content {
+        text-align: center;
+        padding: 260px 0px 200px 0px;
+    }
 
     .banner-prev{
         left:0%;

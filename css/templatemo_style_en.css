@@ -332,7 +332,6 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 5px;
-    font-family:  '宋体', sans-serif;
 }
 
 .banner-content h2 {
@@ -343,8 +342,6 @@ p {
     letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family:  '宋体', sans-serif;
-
 }
 
 
@@ -909,7 +906,10 @@ footer .back-to-top i {
 }
 
 @media (max-width: 767px) {
-
+    .banner-content {
+        text-align: center;
+        padding: 160px 0px 200px 0px;
+    }
 
     .banner-prev{
         left:0%;
